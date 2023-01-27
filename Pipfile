@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+sklearn = "*"
+bs4 = "*"
+tiingo = {extras = ["pandas"], version = "*"}
+ipykernel = "*"
+scikit-learn = "*"
+pandas-datareader = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
